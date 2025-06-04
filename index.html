@@ -1,15 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
     <title>10 korte fortellinger med lyd</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
-        h1 { color: #004080; }
-        h2 { color: #006699; }
-        audio { margin-bottom: 10px; width: 100%; }
-        .story { margin-bottom: 40px; }
-        ul { margin-top: 5px; }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #004080;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #006699;
+            font-size: 1.3rem;
+            margin-top: 2rem;
+        }
+
+        audio {
+            margin: 10px 0;
+            width: 100%;
+            max-width: 100%;
+            display: block;
+        }
+
+        .story {
+            margin-bottom: 40px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.4rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            audio {
+                height: 40px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -17,7 +69,7 @@
     <p>Klikk på play for å lytte til fortellingen. Svar deretter på spørsmålene.</p>
 
     <div class="story">
-        <h2>1. En tur på byen</h2>
+        <h2>1. Fortelling 1</h2>
         <audio controls src="historie1.m4a"></audio>
         <ul>
             <li>Hva kjøpte Maria?</li>
@@ -25,9 +77,9 @@
             <li>Hvordan var dagen hennes?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>2. Arbeid i hagen</h2>
+        <h2>2. Fortelling 2</h2>
         <audio controls src="historie2.m4a"></audio>
         <ul>
             <li>Hva gjorde Ali i hagen?</li>
@@ -35,9 +87,9 @@
             <li>Hvordan følte han seg?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>3. Kose seg med venner</h2>
+        <h2>3. Fortelling 3</h2>
         <audio controls src="historie3.m4a"></audio>
         <ul>
             <li>Hva lagde Anna og vennene?</li>
@@ -45,9 +97,9 @@
             <li>Hadde de det hyggelig?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>4. Treffe en ny venn</h2>
+        <h2>4. Fortelling 4</h2>
         <audio controls src="historie4.m4a"></audio>
         <ul>
             <li>Hvor møtte Pablo den nye vennen?</li>
@@ -55,65 +107,66 @@
             <li>Skal de møtes igjen?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>5. En regnværsdag</h2>
-        <audio controls src="historie5.m4a"></audio>
+        <h2>5. Fortelling 5</h2>
+        <audio controls src="historie5.mp3"></audio>
         <ul>
             <li>Hvordan var været?</li>
             <li>Hva gjorde Natalia?</li>
             <li>Hvordan ble dagen?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>6. En tur til fjellet</h2>
-        <audio controls src="historie6.m4a"></audio>
+        <h2>6. Fortelling 6</h2>
+        <audio controls src="historie6.mp3"></audio>
         <ul>
             <li>Hvem var Ola på tur med?</li>
             <li>Hva hadde de med?</li>
             <li>Hva så de?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>7. Handle i butikken</h2>
-        <audio controls src="historie7.m4a"></audio>
+        <h2>7. Fortelling 7</h2>
+        <audio controls src="historie7.mp3"></audio>
         <ul>
             <li>Hva kjøpte Sara?</li>
             <li>Møtte hun noen i butikken?</li>
             <li>Hadde hun en handleliste?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>8. Få en overraskelse</h2>
-        <audio controls src="historie8.m4a"></audio>
+        <h2>8. Fortelling 8</h2>
+        <audio controls src="historie8.mp3"></audio>
         <ul>
             <li>Hva ventet på Adam da han kom hjem?</li>
             <li>Hva feiret de?</li>
             <li>Hvordan følte Adam seg?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>9. En dag på jobb</h2>
-        <audio controls src="historie9.m4a"></audio>
+        <h2>9. Fortelling 9</h2>
+        <audio controls src="historie9.mp3"></audio>
         <ul>
             <li>Hva startet Elena med?</li>
             <li>Hva gjorde hun etterpå?</li>
             <li>Hvem tok hun kaffe med?</li>
         </ul>
     </div>
-
+    
     <div class="story">
-        <h2>10. Besøk hos legen</h2>
-        <audio controls src="historie10.m4a"></audio>
+        <h2>10. Fortelling 10</h2>
+        <audio controls src="historie10.mp3"></audio>
         <ul>
             <li>Hvorfor dro Mustafa til legen?</li>
             <li>Hva fikk han?</li>
             <li>Ble han bedre?</li>
         </ul>
     </div>
+    
 </body>
 </html>
